@@ -1,6 +1,7 @@
 import 'package:evently/core/app_routes/app_routes.dart';
 import 'package:evently/core/manager/app_provider.dart';
 import 'package:evently/core/theme/app_theme.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:evently/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -11,6 +12,7 @@ import 'l10n/app_localizations.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
