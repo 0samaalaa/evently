@@ -1,16 +1,25 @@
 # evently
 
-evently assignment by dama
+Evently is a mobile application for managing and viewing events with ease.
+You can create events, set their date and time, specify the location, and categorize them.
+The app also allows you to view event details, edit them, and save your favorite events for quick access.
 
-## Getting Started
+Features
+Add new events with title, date, time, and location.
 
-This project is a starting point for a Flutter application.
+View all events in an organized interface with category filters.
 
-A few resources to get you started if this is your first Flutter project:
+Display event location on a map.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Edit or delete events easily.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Save favorite events for quick access.
+
+Multi-language support.
+
+Requirements
+Flutter
+
+Firebase (for data management and synchronization)
+
+Provider (for state management)
