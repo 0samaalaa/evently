@@ -5,6 +5,7 @@ You can create events, set their date and time, specify the location, and catego
 The app also allows you to view event details, edit them, and save your favorite events for quick access.
 
 Features
+
 Add new events with title, date, time, and location.
 
 View all events in an organized interface with category filters.
@@ -18,6 +19,7 @@ Save favorite events for quick access.
 Multi-language support.
 
 Requirements
+
 Flutter
 
 Firebase (for data management and synchronization)
